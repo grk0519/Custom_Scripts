@@ -69,7 +69,7 @@ $Submitbtn.add_click({
             $capital.Text = "Capital: "+$CountryData.Capital
 
             $wc = New-Object System.Net.WebClient
-            $flag = "C:\Learning\Flagpics\CountryFlag_$cname.png"
+            $flag = "C:\CountryFlag_$cname.png"
             if(Test-Path -Path $flag){
                 
                 $fpic = [System.Drawing.Image]::FromFile($flag)
