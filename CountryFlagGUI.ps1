@@ -98,6 +98,6 @@ $Submitbtn.add_click({
         $FlagPic.Image = $null
     }
 })
-
-
 $MainForm.ShowDialog()
+#Script ended here
+
